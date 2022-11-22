@@ -13,7 +13,7 @@ const httpOptions = {
 @Injectable({
   providedIn: 'root'
 })
-export class BookService {
+export class MoviesService {
 
   constructor(private httpClient: HttpClient) { }
 
